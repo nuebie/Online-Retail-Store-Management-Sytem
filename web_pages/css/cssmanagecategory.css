@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.categorysection{
+  display: flex;
+  justify-content:center;
+  padding: 10px;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 15px;
+}
+
+.displaycategory{
+  border-collapse: collapse;
+
+}
+
+.displaycategory th{
+ background-color: #ecf0f1;
+ border-right: 1px solid;
+ border-left: 1px solid;
+ border-top: 1px solid;
+}
+
+.displaycategory td, .displaycategory th{
+  padding: 12px 25px;
+  font-family: 'Assistant', sans-serif;
+  text-align: center;
+}
+
+.cat_name{
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+.cat_name_td{
+  border-right: 1px solid;
+  border-left: 1px solid;
+}
+
+.cat_name_td_last{
+  border-right: 1px solid;
+  border-left: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.addcatbtndiv{
+  text-align: center;
+}
+
+.addnewcatbtn{
+  display: inline-flex;
+  height: 50px;
+  padding: 0;
+  background: #34495e;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.addnewcat_txt, .addnewcat_icon{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 5px;
+  height: 100%;
+  color: white;
+}
+
+.addnewcat_icon{
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08);
+
+}
+
+.inputnewcatdiv{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.9);
+  font-family: 'Assistant', sans-serif;
+  font-size: 20px;
+}
+
+.newcatfrm, .catdetails{
+  padding: 40px 0px;
+}
+
+.categoryname, .subcategoryname{
+  margin-left: 5px;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.categoryname{
+  margin-bottom: 25px;
+}
+
+.subcategoryname{
+  margin-bottom: 10px;
+}
+
+.subcategories{
+  padding-left: 50px;
+}
+
+.addsubcatbtn{
+  display: inline-flex;
+  height: 25px;
+  padding: 0;
+  background: #34495e;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.addsubcat_txt, .addsubcat_icon{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 5px;
+  height: 100%;
+  color: white;
+}
+
+.addsubcat_icon{
+  font-size: 1.5em;
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.newcatbuttonsdiv, .viewcategorybuttonsdiv{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.confirmnewcatbtn, .cancelnewcatbtn{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  background-color: #7f8c8d;
+}
+
+.removesubcatbtn{
+  display: inline-flex;
+  height: 25px;
+  padding: 0;
+  background: #e74c3c;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.removesubcat_icon{
+  font-size: 1.5em;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 5px;
+  height: 100%;
+  color: white;
+}
+
+.viewcatdiv{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.9);
+  font-family: 'Assistant', sans-serif;
+  font-size: 20px;
+}
+
+.delcatbtn{
+  background-color: #55efc4;
+  border-radius: 2px;
+  border: 0px;
+  padding: 4px 8px;
+  font-family: 'Assistant', sans-serif;
+  font-weight: bolder;
+  width: 100%;
+  font-size: 15px;
+  background-color: #ff7675;
+}

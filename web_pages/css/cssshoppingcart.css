@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.editshippingaddressdiv{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background: rgba(241, 242, 246,.5);
+}
+
+.editshippingaddressdiv2{
+  padding: 200px;
+}
+
+.editshippingaddressfrm{
+  background-color: white;
+  display: inline-block;
+  padding: 15px 20px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 5px 5px #ababab;
+  text-align: center;
+  border: 1px solid #ecf0f1;
+  font-size: 20px;
+  width: 350px;
+}
+
+.editshippingaddressfrm input{
+  font-size: 20px;
+}
+
+.addressinput{
+  width: 100%;
+   font-family: 'Assistant', sans-serif;
+   border: 1px solid #dfe4ea;
+   margin-top: 5px;
+}
+
+.confirmbtn{
+  font-family: 'Roboto', sans-serif;
+  background-color: #3c40c6;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+
+.cancelbtn{
+  font-family: 'Roboto', sans-serif;
+    border: none;
+}
+
+.shippingaddressdiv{
+  /*border: 1px solid;*/
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Assistant', sans-serif;
+  margin-bottom: 10px;
+}
+
+.shippingaddresstxt{
+  font-weight: bold;
+}
+
+.shippingaddress{
+  border: 1px solid;
+  padding: 20px;
+}
+
+.editshippingaddressbtn{
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  background-color: white;
+  margin-left: 5px;
+}
+
+.flexbox1{
+  display: flex;
+  justify-content: center;
+}
+
+.products{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.prod_card{
+  width: 700px;
+  display: flex;
+  border: 0.1px solid gray;
+  box-shadow: 4px 4px #00000024;
+/*  margin-bottom: 10px;*/
+  padding: 10px;
+}
+
+.removeitem{
+  text-decoration: none;
+  margin-left: auto;
+  margin-bottom: 10px;
+  font-family: 'Assistant', sans-serif;
+}
+
+.prod_icon{
+  max-height: 50px;
+  max-width: 50px;
+  margin-right: 10px;
+}
+
+
+.prod_details{
+  word-break: break-all;
+    font-family: 'Assistant', sans-serif;
+}
+
+.prod_price{
+  margin-left: auto;
+  color: #3369ff;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.price_details{
+  border: 0.1px solid gray;
+  box-shadow: 4px 4px #00000024;
+  max-height: 250px;
+  margin-left: 20px;
+  padding: 20px;
+  font-family: 'Assistant', sans-serif;
+}
+
+.paypal_btn{
+  margin-top: 10px;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+h1, h3{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.prod_name{
+  font-family: 'Roboto', sans-serif;
+}
+
+.total_amount{
+    color: #3369ff;
+    font-family: 'Roboto', sans-serif;
+}
+
+input{
+  margin-bottom: 10px;
+}
+
+input[type=text]:focus{
+  outline: none;
+}
+
+.addressvalidation{
+  font-size: 18px;
+  font-family: 'Assistant', sans-serif;
+  text-align: center;
+  color: #e74c3c;
+  font-weight: bold;
+}

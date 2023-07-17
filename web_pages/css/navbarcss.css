@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Nanum+Gothic&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  display: flex;
+  justify-content:space-between;
+  background-color: #01012b;
+  min-height: 80px;
+  margin-bottom: 50px;
+  z-index: 5;
+}
+
+.logotxt{
+  color: #ff124f;
+}
+
+.logo{
+  font-family: 'Faster One', cursive;
+/*  margin-left: 20px;*/
+  line-height: 80px;
+  font-size: 50px;
+  float: left;
+  padding: 0px 20px;
+}
+
+.frmcat_name, .frm_subcatname, .frmlogout{
+  padding: 0px 0px;
+  text-align: left;
+}
+
+nav ul{
+float: left;
+}
+
+nav ul li {
+float: left;
+list-style: none;
+position: relative;
+}
+
+nav ul li a{
+  display: block;
+  font-size: 18px;
+  font-family: 'Mulish', sans-serif;
+  color: #05d9e8;
+  padding: 28px 20px;
+  text-decoration: none;
+
+}
+
+nav ul li a:hover{
+color: #FF6600;
+}
+
+nav ul li ul{
+  display: none;
+  position: absolute;
+  background-color: #01012b;
+  border-radius: 0px 0px 4px 4px;
+}
+
+nav ul li:hover ul{
+  display: block;
+}
+
+nav ul li ul li a{
+padding: 15px 20px;
+}
+
+nav ul li ul li a:hover{
+color: #FF6600;
+}
+
+/*FOR THE DROPDOWN FOR ACCOUNT SETTINGS*/
+.account ul li a{
+  padding: 28px 50px;
+}
+
+.account ul li ul li a{
+  padding: 15px 20px;
+}

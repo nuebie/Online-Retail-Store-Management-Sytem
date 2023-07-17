@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.flexbox{
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+.managebtn{
+width: 200px;
+height: 200px;
+padding: 20px;
+margin: 100px;
+border: none;
+background-color: #ecf0f1;
+box-shadow: 5px 5px #ababab;
+}
+
+.link{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: black;
+
+}

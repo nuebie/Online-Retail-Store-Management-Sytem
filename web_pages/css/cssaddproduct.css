@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+
+body{
+  margin: 0px;
+  font-family: 'Assistant', sans-serif;
+}
+
+.flexbox{
+  display: flex;
+  justify-content: center;
+}
+
+.newprodform{
+  border: 1px solid;
+  padding: 10px 15px;
+
+}
+
+input, select, textarea{
+  margin: 10px;
+  font-family: 'Quicksand', sans-serif;
+}

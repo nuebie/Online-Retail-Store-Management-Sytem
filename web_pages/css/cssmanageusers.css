@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+form{
+  text-align: center;
+  padding: 20px 30px;
+}
+
+input{
+  margin-bottom: 20px;
+  margin-top: 0px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  width: 30%;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+select{
+    font-family: 'Quicksand', sans-serif;
+    border: 0px solid;
+    background-color: #b2bec3;
+    padding: 5px 5px;
+}
+
+.usersection{
+  display: flex;
+  justify-content: center;
+}
+
+table{
+  padding: 0px;
+  border-collapse: collapse;
+}
+
+th{
+ font-family: 'Roboto', sans-serif;
+ background-color: #ecf0f1;
+ text-align: left;
+}
+
+td{
+  font-family: 'Assistant', sans-serif;
+  max-width: 100px;
+  overflow-wrap: break-word;
+  border-bottom: 1px solid;
+}
+
+td, th{
+  padding: 12px 15px;
+}
+
+.td_btn{
+  max-width: 120px;
+  border: none;
+}
+
+.removefrm{
+  padding: 0px;
+}
+
+.removebtn{
+  background-color: #55efc4;
+  border-radius: 2px;
+  border: 0px;
+  padding: 4px 8px;
+  margin: 5px;
+  font-family: 'Assistant', sans-serif;
+  font-weight: bolder;
+  width: 100%;
+  font-size: 15px;
+  background-color: #ff7675;
+}
+
+
+input[type=text]:focus, select:focus{
+  outline: none;
+}
